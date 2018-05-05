@@ -1,0 +1,22 @@
+.container {
+    height: 500px;
+    width: 960px;
+    text-align: center;
+}
+
+#name {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#timer {
+    padding-bottom: 50px;
+}
+
+#question {
+    padding-bottom: 25px;
+}
+
+#answer1, #answer2, #answer3, #answer4 {
+    line-height: 50px;
+}

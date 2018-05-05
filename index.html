@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TRIVIA
+        </title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md" id="name">
+                    <h1>
+                        ALL-TIME GREAT TV TRIVIA GAME
+                    </h1>
+                </div>
+            </div>
+            <div class="row" id="submit">
+                <div class="col-md">
+                    <button type="button" class="btn btn-success startButton">START QUIZ</button>
+                </div>
+            </div>
+            <div hidden class="row" id="timer">
+                <div class="col-md">
+                    <h3>
+                        TIME REMAINING:
+                    </h3>
+                </div> 
+            </div>
+            <div class="row" id="quiz">
+               <!-- THIS IS WHERE MY GAME WILL APPEAR -->
+               <div class="row" id="currentQuestion"></div>
+            </div>
+            <div class="row" id="results">
+                <div class="row" id="messages"></div>
+            </div>
+            <!-- <div class="row" id="submit">
+                <div class="col-md">
+                    <button type="button" class="btn btn-success">Submit</button>
+                </div>
+            </div> -->
+            <div hidden class="row" id="scoreboard">
+                <div id="finalMessage"></div>
+                <div id="correctAnswers"></div>
+                <div id="incorrectAnswers"></div>
+                <div id="unanswered"></div>
+            </div>
+        </div>
+    
+        <script src="assets/javascript/app.js"></script>
+    </body>
+</html>
