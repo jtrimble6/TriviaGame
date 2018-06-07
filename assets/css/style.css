@@ -1,7 +1,58 @@
-.container {
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), 
+      url("background2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    margin: 0 auto 0 auto;
+    color: white;
+    text-align: center;
+}
+
+/* .darken {
+    background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(background2.jpg);
+} */
+
+h1 {
+    color: #2FE58F;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.startButton {
+    background-color: white;
+    color: blue;
+}
+
+/* .container {
     height: 500px;
     width: 960px;
-    text-align: center;
+    
+} */
+
+.questionHolderClass {
+    color: white;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
 #name {
@@ -10,13 +61,30 @@
 }
 
 #timer {
-    padding-bottom: 50px;
-}
-
-#question {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+    color: #FD615A;
 }
 
 #answer1, #answer2, #answer3, #answer4 {
     line-height: 50px;
+}
+
+.showName {
+    color: green;
+}
+
+.questionHolderClass {
+    font-size: 26px;
+    font-weight: 1500x;
+    color: #2FE58F;
+}
+
+.answerChoices {
+    font-size: 20px;
+}
+
+.answerChoices:hover {
+    background-color: white;
+    color: #2FE58F;
+    font-weight: bold;
 }
